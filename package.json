@@ -1,0 +1,19 @@
+{
+  "name": "lazy_laundry",
+  "version": "1.0.0",
+  "description": "Fast effective way to clean your laundry in less in a day.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximusSf/Lazy_laundry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximusSf/Lazy_laundry/issues"
+  },
+  "homepage": "https://github.com/MaximusSf/Lazy_laundry#readme"
+}
