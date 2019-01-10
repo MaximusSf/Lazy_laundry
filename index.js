@@ -1,22 +1,23 @@
-const express=require("expresss")
+const express=require("express")
 const app = express()
-const ejs = require('ejs')
+// const ejs = require('ejs')
 
 app.set("view engine", "ejs")
 
-app.get'/', (req, res)=> {
+app.get('/', (req, res)=> {
   res.render('home')
 })
-app.get'/login', (req, res)=> {
+app.get('/login', (req, res)=> {
   res.render('login')
 })
-app.get'/pricing', (req, res)=> {
+app.get('/pricing', (req, res)=> {
   res.render('pricing')
 })
-app.get'/location', (req, res)=> {
+app.get('/location', (req, res)=> {
   res.render('location')
 })
-app.get'/aboutUs', (req, res)=> {
+app.get('/aboutUs', (req, res)=> {
   res.render('aboutUs')
 })
-  app.listen(3000, 'LIVE ON 3000')
+
+app.listen(3000, () => console.log('LIVE ON 3000'));
