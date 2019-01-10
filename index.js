@@ -2,6 +2,8 @@ const express=require("express")
 const app = express()
 // const ejs = require('ejs')
 
+app.use(express.static(__dirname + '/public'));
+
 app.set("view engine", "ejs")
 
 app.get('/', (req, res)=> {
@@ -19,5 +21,4 @@ app.get('/location', (req, res)=> {
 app.get('/aboutUs', (req, res)=> {
   res.render('aboutUs')
 })
-
-app.listen(3000, () => console.log('LIVE ON 3000'));
+  app.listen(3000, () => console.log('LIVE ON 3000'))
