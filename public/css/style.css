@@ -1,0 +1,24 @@
+li {
+  display: inline;
+  padding: 10px;
+}
+
+p {
+  padding-left: 18px;
+}
+
+h1 {
+  padding-left: 18px;
+}
+
+h2 {
+  padding-left: 18px;
+}
+.homebody {
+  background-color: #FFF0F5;
+  text-align: center;
+}
+
+navbar-nav {
+  color: purple;
+}
