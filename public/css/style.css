@@ -22,3 +22,25 @@ h2 {
 navbar-nav {
   color: purple;
 }
+
+.firstPart {
+  font-size: 40px;
+  font-style: italic;
+}
+
+.intro {
+  font-size: 25px;
+}
+
+.cleaning {
+  font-size: 25px;
+}
+
+.delivery {
+  font-size: 25px;
+}
+
+.mommy {
+  font-size: 40px;
+  font-style: oblique; 
+}
