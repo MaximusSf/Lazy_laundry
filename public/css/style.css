@@ -1,16 +1,14 @@
 li {
   display: inline;
   padding: 10px;
+  font-size: 30px;
 }
-
 p {
   padding-left: 18px;
 }
-
 h1 {
   padding-left: 18px;
 }
-
 h2 {
   padding-left: 18px;
 }
@@ -18,7 +16,47 @@ h2 {
   background-color: #FFF0F5;
   text-align: center;
 }
-
 navbar-nav {
   color: purple;
+}
+.firstPart {
+  font-size: 40px;
+  font-style: italic;
+}
+.intro {
+  font-size: 25px;
+}
+.cleaning {
+  font-size: 25px;
+}
+.delivery {
+  font-size: 25px;
+}
+.mommy {
+  font-size: 40px;
+  font-style: oblique;
+}
+
+header[role="banner"] {
+  #logo-main {
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+#navbar-primary.navbar-default {
+  background: transparent;
+  border: none;
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      display: inline-block;
+      float: none;
+      > a {
+        padding-left: 30px;
+        padding-right: 30px;
+        }
+    }
+  }
 }
